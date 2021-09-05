@@ -60,6 +60,7 @@ model_pipeline = joblib.load('models/final_model.pkl')
 target_name = ["won't accept",'will accept']
 st.set_page_config(layout="wide")
 st.title('Demo of personal loan prediction model')
+st.subheader('For correct display, please use a __light theme__')
 #st.write('<small>For the correct display of the results switch on to the light theme in the settings</small>', unsafe_allow_html=True)
 
 with st.form('text'):
